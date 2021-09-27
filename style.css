@@ -8,7 +8,7 @@
 }
 header {
   width: 100%;
-  background-color:red;
+  background-color:white;
   height: 110px;
 }
 .head img {
@@ -24,7 +24,7 @@ header {
   width: 100%;
   font-size: 28px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: black;
+  background-color: white;
 }
 .navigation {
   list-style: none;
@@ -59,7 +59,7 @@ form {
 }
 footer {
   width: 100%;
-  background-color: black;
+  background-color: #ccc;
   height: 30px;
 }
 .footer p {
@@ -67,4 +67,24 @@ footer {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
   padding-top: 4px;
+}
+@media (min-width: 800px)
+{
+.navigation li{
+ display: inline;
+}
+.container {
+ max-width: 960px;
+}
+nav {
+max-width: 960px;
+}
+.content{
+flex: 1;
+order: 1;
+}
+.main-table{
+flex: 1;
+order: 1;
+}
 }
