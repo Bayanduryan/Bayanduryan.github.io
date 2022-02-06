@@ -1,0 +1,25 @@
+form{
+    background-color: rgb(59, 187, 108);
+    padding: 70px;
+    text-align: left;
+    margin: auto;
+    display: table;
+    align:"center";
+}
+#button1 {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+  } 
+  #button1:hover { background: rgba(116, 100, 204, 0.2); }
+  #button1:active { background: white; }
+  body {
+      background-image: url(FON.jpg);
+  }
