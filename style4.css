@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ccc;
+}
+
+a {
+	color: rgb(8, 8, 8);
+}
+
+header {
+	background-color: #111010;
+	height: 120px;
+	width: 100%;
+}
+
+.contengent {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+	.contengent div {
+		padding: 10px;
+	}
+
+.box1 {
+	flex: 1;
+	order: 1;
+}
+
+.box2 {
+	flex: 1;
+	order: 3;
+}
+
+.box3 {
+	flex: 1;
+	order: 2;
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+
+.main {
+	background-color: #ccc;
+}
+
+.head-text {
+	line-height: 100px;
+	color: rgb(238, 10, 10);
+	font-size: 30px;
+}
+
+.head-text-1 {
+	color: rgb(238, 10, 10);
+}
+
+.main li {
+	list-style-type: none;
+}
+
+.main img {
+	width: 30%;
+}
+
+
+
+tr:nth-child(odd) {
+	background-color: #f1f1ec;
+}
+
+tr:nth-child(even) {
+	background-color: #fffffe;
+}
+
+tr:hover {
+	background-color: #666;
+	color: rgb(133, 48, 48);
+}
+
+footer {
+	background-color: #121213;
+	height: 60px;
+	width: 100%;
+}
+
+.podvaltext {
+	font-size: 20px;
+	color: rgb(243, 243, 236);
+	float: left;
+}
+
+.main td, th {
+	padding: 30px;
+}
+
+nav {
+	background-color: #f7f2f2;
+	width: 100%;
+	font-size: 20px;
+
+}
+	nav li {
+		list-style-type: none;
+	}
+.container-nav {
+	max-width: 960px;
+
+}
+
+
+@media (min-width: 700px) {
+
+
+	.container-nav li {
+		display: inline;
+	}
+
+	.container {
+		max-width: 960px;
+	}
+	.contengent {
+		max-width: 960px;
+	}
+
+
+	nav {
+		max-width: 960px;
+	}
+
+	.box1 {
+		flex: 1;
+		order: 1;
+	}
+
+	.box2 {
+		flex: 1;
+		order: 2;
+	}
+
+	.box3 {
+		flex: 1;
+		order: 3;
+	}
+}
